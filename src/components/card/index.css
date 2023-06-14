@@ -1,0 +1,32 @@
+.App__toDoList {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.Card {
+  padding: 12px 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  border-radius: 16px;
+  border: 2px solid gray;
+  box-shadow: #0000;
+  gap: 20px;
+}
+
+.card__details {
+  margin: 12px 0 0 0;
+}
+.card__color {
+  background-color: aqua;
+}
+.true {
+  background-color: #d3e9e2;
+}
+.false {
+  background-color: #ecb6a1;
+}
